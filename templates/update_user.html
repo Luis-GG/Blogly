@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Edit {{user.first_name + " " + user.last_name}}</h1>
+
+<form method="POST">
+    <p>First Name: <input type="text" name="first_name" value={{user.first_name}} id=""></p>
+    <p>Last Name: <input type="text" name="last_name" value={{user.last_name}} id=""></p>
+    <p>Image URL: <input type="text" name="img_url" value={{user.image_url}} id=""></p>
+    <button>Update</button>
+</form>
+
+
+
+{% endblock %}
