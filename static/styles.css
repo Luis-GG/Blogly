@@ -90,3 +90,24 @@ img {
     width: 50%;
 
 }
+
+.main_cont {
+    border: 1px solid red;
+}
+
+#add_post_btn {
+    border: 1px solid yellow;
+    position: relative;
+    top: 120px;
+    left: 380px;
+}
+
+.post_cont {
+    border: 1px solid magenta;
+    width: 450px;
+    height: 150px;
+}
+
+.post {
+    margin-left: 8px;
+}
